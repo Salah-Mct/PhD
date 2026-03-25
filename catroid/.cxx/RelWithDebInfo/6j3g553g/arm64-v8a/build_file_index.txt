@@ -1,0 +1,3 @@
+C:\Users\Salah\Downloads\phd\ca\Catroid-develop\catroid\src\main\jni\CMakeLists.txt
+C:\Users\Salah\Downloads\phd\ca\Catroid-develop\catroid\src\main\jni\jnilibsvm\CMakeLists.txt
+C:\Users\Salah\Downloads\phd\ca\Catroid-develop\catroid\src\main\jni\tensorflow_demo\CMakeLists.txt

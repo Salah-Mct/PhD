@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "tensorflow_demo",
+					"jsonFile" : "directory-tensorflow_demo-RelWithDebInfo-df0903edfad158c5357b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "tensorflow_demo",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "jnilibsvm",
+					"jsonFile" : "directory-jnilibsvm-RelWithDebInfo-ee4bc3e0c4d22b7f7d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "jnilibsvm",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "FACERECOGNIZER"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "TENSORFLOW_DEMO",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "JNILIBSVM",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "jnilibsvm::@b0ac9fbc6badd170c851",
+					"jsonFile" : "target-jnilibsvm-RelWithDebInfo-39faf12fdcc60069b4bb.json",
+					"name" : "jnilibsvm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tensorflow_demo::@24a0bd616287f0584b28",
+					"jsonFile" : "target-tensorflow_demo-RelWithDebInfo-ffacf62f02d07509bbfd.json",
+					"name" : "tensorflow_demo",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Salah/Downloads/phd/ca/Catroid-develop/catroid/.cxx/RelWithDebInfo/6j3g553g/arm64-v8a",
+		"source" : "C:/Users/Salah/Downloads/phd/ca/Catroid-develop/catroid/src/main/jni"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
